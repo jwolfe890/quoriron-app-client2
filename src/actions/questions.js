@@ -64,6 +64,7 @@ export const createQuestion = (question, routerHistory) => {
         response.json()
     })
       .then(question => {
+        console.log(question)
         dispatch(addQuestion(question));
         routerHistory.replace(`/questions/${question.id}`)
     })
