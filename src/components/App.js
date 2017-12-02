@@ -6,6 +6,7 @@ import Question from '../containers/question'
 import askQuestion from '../containers/askquestion'
 import Navbar from '../components/Navbar'
 import Home from '../components/Home'
+import { Jumbotron, Button } from 'react-bootstrap';
 
 import { getQuestions } from '../actions/questions'
 import { connect } from 'react-redux';

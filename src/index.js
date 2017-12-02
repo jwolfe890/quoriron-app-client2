@@ -6,6 +6,9 @@ import './index.css';
 import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import store from './store';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 
 ReactDOM.render(
